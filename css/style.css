@@ -14,7 +14,7 @@
 html,
 body {
 	height: 100%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -106,11 +106,15 @@ ol {
 	font-size: 12px;
 	font-weight: 500;
 	margin-bottom: 0;
-	color: #8e8e8e;
+	color: #500e5d;
 	line-height: normal;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-bottom: 5px;
+}
+.section-title .fa {
+	font-size: 2em;
+	color: #500e5d;
 }
 
 .section-title.st-white h2 {
@@ -173,8 +177,9 @@ ol {
 	font-weight: 400;
 	min-width: 186px;
 	padding: 17px 25px;
-	border-radius: 14px;
-	background: #eb2b63;
+	border-radius: 30px;
+	font-weight:bold;
+	background: #500e5d;
 	color: #fff;
 	line-height: 1;
 	cursor: pointer;
