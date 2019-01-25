@@ -3,13 +3,14 @@
 module.exports = {
   siteMetadata: {
     title: 'Exoleaders',
-    description: '',
     siteUrl: '',
+    description: '',
     author: {
       name: '',
       url: '',
       email: ''
-    }
+    },
+
   },
   plugins: [
     {

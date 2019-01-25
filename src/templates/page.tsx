@@ -11,6 +11,7 @@ interface PageTemplateProps {
       siteMetadata: {
         title: string;
         description: string;
+        metaTags: Array<any>
         author: {
           name: string;
           url: string;

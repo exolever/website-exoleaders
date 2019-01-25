@@ -24,7 +24,7 @@ class LeaderForm extends React.Component {
       if(data !== null && data.result === "success"){
         this.setState({
           complete: true,
-          message: data.msg
+          message: "Thanks for joining our community"
         })
       } else {
         this.setState({

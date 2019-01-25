@@ -13,9 +13,23 @@ type StaticQueryProps = {
     siteMetadata: {
       title: string;
       description: string;
+      metaTags: Array<{name: string, content: string}>
     };
   };
 };
+const meta = [
+  { name: 'description', content: "" },
+  { name: 'keywords', content: 'gatsbyjs, gatsby, javascript, sample, something' },
+  { name: "viewport", content:"width=device-width, initial-scale=1.0"},
+  { name: "apple-mobile-web-app-title", content: "exoleaders"},
+  { name: "google-site-verification", content: ""},
+  { name: "theme-color", content: "#3c1597"},
+  { name: "msapplication-TileColor", content: "#3c1597"},
+  { property: "og:description", content: ""},
+  { property: "og:image", content: "/social/banner.png"},
+  { property: "og:title", content: "exoleaders"}
+]
+
 
 const IndexLayout: React.SFC = ({ children }) => (
   <StaticQuery
@@ -33,12 +47,8 @@ const IndexLayout: React.SFC = ({ children }) => (
       <LayoutRoot>
         <Helmet
           title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: data.site.siteMetadata.description },
-            { name: 'keywords', content: 'gatsbyjs, gatsby, javascript, sample, something' }
-          ]}
+          meta={meta}
         >
-
         </Helmet>
         <LayoutMain>{children}</LayoutMain>
       </LayoutRoot>

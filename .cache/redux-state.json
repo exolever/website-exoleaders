@@ -1602,7 +1602,7 @@
       "resolve": "/Users/alexanderking/Projects/website-exoleaders",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "0b5720892b52289cc31ebd228f6af10f",
+      "version": "f8e5f27177a196b4e240d98fdc6b26a3",
       "pluginOptions": {
         "plugins": []
       },
@@ -1809,7 +1809,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a28a3aace96b99823144140aed91de9f",
+        "contentDigest": "765649c76d9ff376930684f99219b524",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1920,8 +1920,8 @@
     "Site": {
       "siteMetadata": {
         "title": "Exoleaders",
-        "description": "",
         "siteUrl": "",
+        "description": "",
         "author": {
           "name": "",
           "url": "",
@@ -1930,14 +1930,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-01-25T02:48:43.805Z",
+      "buildTime": "2019-01-25T05:25:20.218Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5dc719dafcf241517544d544f28e97ba",
+        "contentDigest": "d396f7cd911255d130ccbe2fb0bbeafd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1947,7 +1945,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "477226a447e55ee07caf6e3c14868312",
+        "contentDigest": "66df9866814a355e466ae0ed9d70b51f",
         "type": "Directory",
         "description": "Directory \"src/content\"",
         "owner": "gatsby-source-filesystem"
@@ -1959,7 +1957,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T02:48:48.646Z",
+      "accessTime": "2019-01-25T05:25:23.075Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -1977,11 +1975,11 @@
       "blksize": 4096,
       "ino": 21276530,
       "blocks": 0,
-      "atimeMs": 1548384528645.9045,
+      "atimeMs": 1548393923075.3718,
       "mtimeMs": 1548378171941.1882,
       "ctimeMs": 1548378171941.1882,
       "birthtimeMs": 1548378171940.7817,
-      "atime": "2019-01-25T02:48:48.646Z",
+      "atime": "2019-01-25T05:25:23.075Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2004,7 +2002,7 @@
       "size": 0,
       "prettySize": "0 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T01:02:51.941Z",
+      "accessTime": "2019-01-25T05:24:41.204Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2022,11 +2020,11 @@
       "blksize": 4096,
       "ino": 21276531,
       "blocks": 0,
-      "atimeMs": 1548378171940.8728,
+      "atimeMs": 1548393881203.7021,
       "mtimeMs": 1548378171940.8728,
       "ctimeMs": 1548378171940.8728,
       "birthtimeMs": 1548378171940.8728,
-      "atime": "2019-01-25T01:02:51.941Z",
+      "atime": "2019-01-25T05:24:41.204Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2051,7 +2049,7 @@
       "size": 533,
       "prettySize": "533 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T01:03:04.646Z",
+      "accessTime": "2019-01-25T05:24:40.216Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2069,11 +2067,11 @@
       "blksize": 4096,
       "ino": 21276532,
       "blocks": 8,
-      "atimeMs": 1548378184645.5828,
+      "atimeMs": 1548393880215.5146,
       "mtimeMs": 1548378171941.452,
       "ctimeMs": 1548378171941.452,
       "birthtimeMs": 1548378171941.1787,
-      "atime": "2019-01-25T01:03:04.646Z",
+      "atime": "2019-01-25T05:24:40.216Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2190,7 +2188,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "642d77b2c2aa03347e7a8bbe8a4250fa"
+    "PLUGINS_HASH": "865ed4f08121cf948e0b6b226a0ad26c"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2204,7 +2202,6 @@
     },
     "connections": {
       "MarkdownRemark": [
-        null,
         null
       ]
     }
@@ -2222,6 +2219,10 @@
       "query": "query PageTemplateQuery(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      description\n      author {\n        name\n        url\n      }\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    excerpt\n    frontmatter {\n      title\n    }\n  }\n}\n",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/templates/page.tsx"
     },
+    "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js"
+    },
     "/Users/alexanderking/Projects/website-exoleaders/src/pages/404.tsx": {
       "query": "",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/pages/404.tsx"
@@ -2229,10 +2230,6 @@
     "/Users/alexanderking/Projects/website-exoleaders/src/pages/index.tsx": {
       "query": "",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/pages/index.tsx"
-    },
-    "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
