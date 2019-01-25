@@ -1602,7 +1602,7 @@
       "resolve": "/Users/alexanderking/Projects/website-exoleaders",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "f8e5f27177a196b4e240d98fdc6b26a3",
+      "version": "9f32d29194c538a44fa42bc34ed0a889",
       "pluginOptions": {
         "plugins": []
       },
@@ -1809,7 +1809,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "765649c76d9ff376930684f99219b524",
+        "contentDigest": "039f65c8443f60fc010ae5f8e265168e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1930,12 +1930,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-01-25T05:25:20.218Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-01-25T05:32:43.350Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d396f7cd911255d130ccbe2fb0bbeafd",
+        "contentDigest": "c6e321f072e834694c57ab61c9efdd09",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1945,7 +1947,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "66df9866814a355e466ae0ed9d70b51f",
+        "contentDigest": "307900012fcae02dc18093c2c79e467c",
         "type": "Directory",
         "description": "Directory \"src/content\"",
         "owner": "gatsby-source-filesystem"
@@ -1957,7 +1959,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T05:25:23.075Z",
+      "accessTime": "2019-01-25T05:32:49.005Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -1975,11 +1977,11 @@
       "blksize": 4096,
       "ino": 21276530,
       "blocks": 0,
-      "atimeMs": 1548393923075.3718,
+      "atimeMs": 1548394369004.689,
       "mtimeMs": 1548378171941.1882,
       "ctimeMs": 1548378171941.1882,
       "birthtimeMs": 1548378171940.7817,
-      "atime": "2019-01-25T05:25:23.075Z",
+      "atime": "2019-01-25T05:32:49.005Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2002,7 +2004,7 @@
       "size": 0,
       "prettySize": "0 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T05:24:41.204Z",
+      "accessTime": "2019-01-25T05:32:36.280Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2020,11 +2022,11 @@
       "blksize": 4096,
       "ino": 21276531,
       "blocks": 0,
-      "atimeMs": 1548393881203.7021,
+      "atimeMs": 1548394356279.6323,
       "mtimeMs": 1548378171940.8728,
       "ctimeMs": 1548378171940.8728,
       "birthtimeMs": 1548378171940.8728,
-      "atime": "2019-01-25T05:24:41.204Z",
+      "atime": "2019-01-25T05:32:36.280Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2049,7 +2051,7 @@
       "size": 533,
       "prettySize": "533 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T05:24:40.216Z",
+      "accessTime": "2019-01-25T05:32:36.280Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2067,11 +2069,11 @@
       "blksize": 4096,
       "ino": 21276532,
       "blocks": 8,
-      "atimeMs": 1548393880215.5146,
+      "atimeMs": 1548394356279.636,
       "mtimeMs": 1548378171941.452,
       "ctimeMs": 1548378171941.452,
       "birthtimeMs": 1548378171941.1787,
-      "atime": "2019-01-25T05:24:40.216Z",
+      "atime": "2019-01-25T05:32:36.280Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2188,7 +2190,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "865ed4f08121cf948e0b6b226a0ad26c"
+    "PLUGINS_HASH": "8ce486ff31210d8c9c6747195e0a4370"
   },
   "componentDataDependencies": {
     "nodes": {
