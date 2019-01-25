@@ -38,15 +38,7 @@ const IndexLayout: React.SFC = ({ children }) => (
             { name: 'keywords', content: 'gatsbyjs, gatsby, javascript, sample, something' }
           ]}
         >
-          <style>
-            {
-              `body {
-                opacity: 0;
-                transition: all ease 0.5s;
-                margin: 0;
-              }`
-            }
-          </style>
+
         </Helmet>
         <LayoutMain>{children}</LayoutMain>
       </LayoutRoot>

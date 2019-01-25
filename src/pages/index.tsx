@@ -9,15 +9,13 @@ import HighlightSection from '../components/HighlightSection';
 import IndexLayout from '../layouts';
 import LeaderForm from '../components/forms/LeaderForm';
 
-// assets
-import '../styles/bootstrap.css';
-import '../styles/style.css';
-
 import * as sectionIcon from '../img/section-title-icon.png';
 import * as sectionBg from '../img/bg-61.png';
 import * as rocket from '../img/rocket.png';
 import * as formBg from '../img/bg.png';
 import * as dreamerImage from '../img/dreamer.png';
+import * as finderImage from '../img/finder.png';
+
 
 
 // data
@@ -29,23 +27,10 @@ interface State {
   }
 };
 class IndexPage extends React.Component<any, State> {
-  state: State = {
-    style: {
-      opacity: 0
-    }
-  }
-
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({ style: { opacity: 1 } })
-    }, 200);
-  }
-
   render() {
     return (
 
       <IndexLayout>
-        <style>{`body { opacity: ${this.state.style.opacity}; } `}</style>
         <Page>
           <Hero
             title="ExO Leaders"
@@ -72,28 +57,26 @@ class IndexPage extends React.Component<any, State> {
 
           <Section>
             <div className="row">
+              <div className="col-lg-6">
+                <img src={finderImage} alt="" />
+              </div>
               <div className="col-lg-6 about-text">
                 <h3>Why choose our company?</h3>
                 <p>{dummyText}</p>
               </div>
-              <div className="col-lg-6">
-                <img src={dreamerImage} alt="" />
-              </div>
             </div>
           </Section>
 
-          <HighlightSection icon={sectionIcon} title="See our features" tagline="We are so cool" backgroundImage={sectionBg}>
-            <div className="domain-form-warp">
-              <form className="domain-search-form  df-white-bg">
-                <input type="text" placeholder="Enter your website’s name" />
-                <button className="site-btn ghost">Search</button>
-              </form>
-              <p>{dummyText}</p>
-            </div>
-          </HighlightSection>
-
           <Footer links={[{ text: 'Link A', url: '/a' }, { text: 'Link B', url: '/b' }]} />
         </Page>
+        <style>
+            {
+              `body {
+                transition: all ease 0.5s;
+                opacity: 1;
+              }`
+            }
+          </style>
       </IndexLayout>
     )
   }
