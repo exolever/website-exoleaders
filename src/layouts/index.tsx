@@ -15,8 +15,8 @@ type StaticQueryProps = {
   };
 };
 const meta = [
-  { name: 'description', content: "" },
-  { name: 'keywords', content: 'gatsbyjs, gatsby, javascript, sample, something' },
+  { name: 'description', content: "Exponential leaders of tomorrow, transforming bussiness to survive a rapidly changing world" },
+  { name: 'keywords', content: 'Exponential, bussiness, transform, change, rapid, tech' },
   { name: "viewport", content:"width=device-width, initial-scale=1.0"},
   { name: "apple-mobile-web-app-title", content: "exoleaders"},
   { name: "google-site-verification", content: ""},
@@ -24,7 +24,7 @@ const meta = [
   { name: "msapplication-TileColor", content: "#3c1597"},
   { property: "og:description", content: ""},
   { property: "og:image", content: "/social/banner.png"},
-  { property: "og:title", content: "exoleaders"}
+  { property: "og:title", content: "ExO Leaders | Exponential leaders of tomorrow"}
 ]
 
 

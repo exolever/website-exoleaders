@@ -2,7 +2,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Exoleaders',
+    title: 'ExO Leaders | Exponential leaders of tomorrow',
     siteUrl: '',
     description: '',
     author: {

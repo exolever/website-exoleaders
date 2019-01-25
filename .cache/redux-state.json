@@ -1753,7 +1753,7 @@
       "resolve": "/Users/alexanderking/Projects/website-exoleaders",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "e8ce967fa533a8a31318cab25b723fe2",
+      "version": "2b7c40551d5257722ee9411bc36e70d4",
       "pluginOptions": {
         "plugins": []
       },
@@ -1964,7 +1964,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "941c8cb10d8ef1262f5a8a3f1d321aa5",
+        "contentDigest": "3ab9609447ff2706b9c9756a6508bc74",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2074,7 +2074,7 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Exoleaders",
+        "title": "ExO Leaders | Exponential leaders of tomorrow",
         "siteUrl": "",
         "description": "",
         "author": {
@@ -2087,12 +2087,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-25T07:48:42.267Z",
+      "buildTime": "2019-01-25T09:01:07.297Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c71ee3164abf1c8af5c9839a9906d20e",
+        "contentDigest": "b185fe37de777e563a0390f733eb6994",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2102,7 +2102,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "430561688dfe38bb034bf78e6640571d",
+        "contentDigest": "4242a25f82b301ea1ac8c3986fb64f29",
         "type": "Directory",
         "description": "Directory \"src/content\"",
         "owner": "gatsby-source-filesystem"
@@ -2114,7 +2114,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T07:48:47.488Z",
+      "accessTime": "2019-01-25T09:01:13.825Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2132,11 +2132,11 @@
       "blksize": 4096,
       "ino": 21276530,
       "blocks": 0,
-      "atimeMs": 1548402527487.91,
+      "atimeMs": 1548406873825.0876,
       "mtimeMs": 1548378171941.1882,
       "ctimeMs": 1548378171941.1882,
       "birthtimeMs": 1548378171940.7817,
-      "atime": "2019-01-25T07:48:47.488Z",
+      "atime": "2019-01-25T09:01:13.825Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2159,7 +2159,7 @@
       "size": 0,
       "prettySize": "0 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T06:32:24.462Z",
+      "accessTime": "2019-01-25T08:17:59.763Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2177,11 +2177,11 @@
       "blksize": 4096,
       "ino": 21276531,
       "blocks": 0,
-      "atimeMs": 1548397944461.535,
+      "atimeMs": 1548404279763.4912,
       "mtimeMs": 1548378171940.8728,
       "ctimeMs": 1548378171940.8728,
       "birthtimeMs": 1548378171940.8728,
-      "atime": "2019-01-25T06:32:24.462Z",
+      "atime": "2019-01-25T08:17:59.763Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2206,7 +2206,7 @@
       "size": 533,
       "prettySize": "533 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T06:32:24.321Z",
+      "accessTime": "2019-01-25T08:17:59.621Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2224,11 +2224,11 @@
       "blksize": 4096,
       "ino": 21276532,
       "blocks": 8,
-      "atimeMs": 1548397944320.514,
+      "atimeMs": 1548404279620.5884,
       "mtimeMs": 1548378171941.452,
       "ctimeMs": 1548378171941.452,
       "birthtimeMs": 1548378171941.1787,
-      "atime": "2019-01-25T06:32:24.321Z",
+      "atime": "2019-01-25T08:17:59.621Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2345,7 +2345,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a5cbccab065383088e9850ac5ebc87d7"
+    "PLUGINS_HASH": "44e57a3c1d88cbd46ada6f6963317baa"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2370,7 +2370,7 @@
     "sq--src-layouts-index-tsx": 991718019,
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "a-markdown-page-83f": "27/path---a-markdown-page-83-f-074-xGBVrrrfaf9wZFCN0iCOwrNCO44"
+    "a-markdown-page-83f": "755/path---a-markdown-page-83-f-074-9ZGctNvDEuwnRqgx1bL8azIUANQ"
   },
   "components": {
     "/Users/alexanderking/Projects/website-exoleaders/src/templates/page.tsx": {

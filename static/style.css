@@ -1700,11 +1700,13 @@ ol {
 		font-size: 35px;
 	}
 	.hero-section {
-		height: 750px;
+		height: auto;
+    padding: 35vw 0;
 	}
 	.hero-content h2 {
 		font-size: 40px;
 		margin-bottom: 30px;
+		height: auto;
 	}
 	.domain-search-form {
 		text-align: center;

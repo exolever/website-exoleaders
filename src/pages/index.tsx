@@ -60,7 +60,7 @@ const DATA = {
       ],
       copyright: (year = new Date().getFullYear()) =>
         <>
-          Building Exponential Organizations - OpenExO® {year} <br /> <small>Copyright &copy; {year} All rights reserved</small>
+          Building Exponential Organizations - OpenExO<sup>®</sup> {year} <br /> <small>Copyright &copy; {year} All rights reserved</small>
         </>
     }
   }
@@ -75,7 +75,7 @@ class IndexPage extends React.Component<any, State> {
             title="ExO Leaders"
             subtitle={DATA.en.hero.description}
             backgroundImage={sectionBg}
-            cta={{ text: 'Join the Community', target: '#' }}
+            cta={{ text: 'Join the Community', target: '#community' }}
           />
 
           <Section>
