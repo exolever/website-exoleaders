@@ -9,16 +9,13 @@ import HighlightSection from '../components/HighlightSection';
 import IndexLayout from '../layouts';
 import LeaderForm from '../components/forms/LeaderForm';
 
-import * as sectionIcon from '../img/section-title-icon.png';
-import * as sectionBg from '../img/bg-61.png';
-import * as rocket from '../img/rocket.png';
-import * as formBg from '../img/bg.png';
-import * as dreamerImage from '../img/dreamer.png';
-import * as finderImage from '../img/finder.png';
-
-
+import * as sectionBg from '../img/bg-61.jpg';
+import * as formBg from '../img/bg.jpg';
+import * as dreamerImage from '../img/dreamer.jpg';
+import * as finderImage from '../img/finder.jpg';
 
 // data
+const title= `Join the exoleaders community`;
 const dummyText = `Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas sit amet neque sed elementum.`
 const headerDescription = `Launchpad helps you build a new type of organization, an ExO or Exponential Organization.An ExO is a purpose-driven venture that leverages exponential technologies and a set of common attributes to grow and transform the world`;
 interface State {
@@ -51,7 +48,7 @@ class IndexPage extends React.Component<any, State> {
             </div>
           </Section>
 
-          <HighlightSection icon={sectionIcon} title="See our features" tagline="" backgroundImage={formBg}>
+          <HighlightSection title={title} tagline="" backgroundImage={formBg}>
             <LeaderForm />
           </HighlightSection>
 
@@ -72,7 +69,7 @@ class IndexPage extends React.Component<any, State> {
         <style>
             {
               `body {
-                transition: all ease 0.5s;
+                transition: opacity ease 0.5s;
                 opacity: 1;
               }`
             }

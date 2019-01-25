@@ -1,11 +1,10 @@
 import * as React from 'react';
-import { Global, css } from '@emotion/core';
 import styled from '@emotion/styled';
 
 const StyledLayoutRoot = styled.div`
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  // display: flex;
+  // flex-direction: column;
+  // min-height: 100vh;
 `;
 
 interface LayoutRootProps {

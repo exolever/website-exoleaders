@@ -342,6 +342,157 @@
         "owner": "internal-data-bridge"
       }
     },
+    "6b3aac8c-03e7-5832-9b0b-0fa798418816": {
+      "resolve": "/Users/alexanderking/Projects/website-exoleaders/node_modules/gatsby-plugin-purgecss",
+      "id": "6b3aac8c-03e7-5832-9b0b-0fa798418816",
+      "name": "gatsby-plugin-purgecss",
+      "version": "3.1.0",
+      "pluginOptions": {
+        "plugins": [],
+        "printRejected": true,
+        "purgeOnly": [
+          "/static/style.css",
+          "/static/bootstrap.css"
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/alexanderking/Projects/website-exoleaders/node_modules/gatsby-plugin-purgecss",
+      "packageJson": {
+        "name": "gatsby-plugin-purgecss",
+        "description": "Gatsby plugin for purgecss. Removes unused css/sass/less/stylus from files and modules. Supports Tailwindcss, Bootstrap, Bulma etc.",
+        "version": "3.1.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "css",
+          "sass",
+          "scss",
+          "stylus",
+          "less",
+          "optimize",
+          "clean",
+          "purgecss",
+          "purify",
+          "purifycss"
+        ],
+        "author": {
+          "name": "Ananto Ghosh"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "loader-utils",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "purgecss",
+            "version": "^1.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "1.7.0"
+          },
+          {
+            "name": "coveralls",
+            "version": "3.0.2"
+          },
+          {
+            "name": "dotenv",
+            "version": "6.2.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "2.0.79"
+          },
+          {
+            "name": "gatsby-plugin-less",
+            "version": "2.0.8"
+          },
+          {
+            "name": "gatsby-plugin-postcss",
+            "version": "2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "2.0.7"
+          },
+          {
+            "name": "gatsby-plugin-stylus",
+            "version": "2.0.3"
+          },
+          {
+            "name": "jest",
+            "version": "23.6.0"
+          },
+          {
+            "name": "less",
+            "version": "3.9.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "4.11.0"
+          },
+          {
+            "name": "react",
+            "version": "16.7.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "16.7.0"
+          },
+          {
+            "name": "release-it",
+            "version": "9.4.3"
+          },
+          {
+            "name": "runjs",
+            "version": "4.3.2"
+          },
+          {
+            "name": "symlink-dir",
+            "version": "2.0.2"
+          },
+          {
+            "name": "tailwindcss",
+            "version": "0.7.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-beta"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "77b46568265ce2f20b1afd3cccf8b656",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "1a790830-6ee1-5904-b2e6-1f6eea20b808": {
       "resolve": "/Users/alexanderking/Projects/website-exoleaders/node_modules/gatsby-transformer-remark",
       "id": "1a790830-6ee1-5904-b2e6-1f6eea20b808",
@@ -1602,7 +1753,7 @@
       "resolve": "/Users/alexanderking/Projects/website-exoleaders",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "9f32d29194c538a44fa42bc34ed0a889",
+      "version": "e8ce967fa533a8a31318cab25b723fe2",
       "pluginOptions": {
         "plugins": []
       },
@@ -1658,6 +1809,10 @@
           {
             "name": "gatsby-plugin-emotion",
             "version": "^4.0.1"
+          },
+          {
+            "name": "gatsby-plugin-purgecss",
+            "version": "^3.1.0"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -1809,7 +1964,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "039f65c8443f60fc010ae5f8e265168e",
+        "contentDigest": "941c8cb10d8ef1262f5a8a3f1d321aa5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1932,12 +2087,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-25T05:32:43.350Z",
+      "buildTime": "2019-01-25T06:50:31.087Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c6e321f072e834694c57ab61c9efdd09",
+        "contentDigest": "ae6149fb27153932c095d82e450fc33e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1947,7 +2102,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "307900012fcae02dc18093c2c79e467c",
+        "contentDigest": "3eda39d7b5a0851cf673c1eaaed1f88b",
         "type": "Directory",
         "description": "Directory \"src/content\"",
         "owner": "gatsby-source-filesystem"
@@ -1959,7 +2114,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T05:32:49.005Z",
+      "accessTime": "2019-01-25T06:50:36.716Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -1977,11 +2132,11 @@
       "blksize": 4096,
       "ino": 21276530,
       "blocks": 0,
-      "atimeMs": 1548394369004.689,
+      "atimeMs": 1548399036715.5212,
       "mtimeMs": 1548378171941.1882,
       "ctimeMs": 1548378171941.1882,
       "birthtimeMs": 1548378171940.7817,
-      "atime": "2019-01-25T05:32:49.005Z",
+      "atime": "2019-01-25T06:50:36.716Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2004,7 +2159,7 @@
       "size": 0,
       "prettySize": "0 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T05:32:36.280Z",
+      "accessTime": "2019-01-25T06:32:24.462Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2022,11 +2177,11 @@
       "blksize": 4096,
       "ino": 21276531,
       "blocks": 0,
-      "atimeMs": 1548394356279.6323,
+      "atimeMs": 1548397944461.535,
       "mtimeMs": 1548378171940.8728,
       "ctimeMs": 1548378171940.8728,
       "birthtimeMs": 1548378171940.8728,
-      "atime": "2019-01-25T05:32:36.280Z",
+      "atime": "2019-01-25T06:32:24.462Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2051,7 +2206,7 @@
       "size": 533,
       "prettySize": "533 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-25T05:32:36.280Z",
+      "accessTime": "2019-01-25T06:32:24.321Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2069,11 +2224,11 @@
       "blksize": 4096,
       "ino": 21276532,
       "blocks": 8,
-      "atimeMs": 1548394356279.636,
+      "atimeMs": 1548397944320.514,
       "mtimeMs": 1548378171941.452,
       "ctimeMs": 1548378171941.452,
       "birthtimeMs": 1548378171941.1787,
-      "atime": "2019-01-25T05:32:36.280Z",
+      "atime": "2019-01-25T06:32:24.321Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2190,7 +2345,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8ce486ff31210d8c9c6747195e0a4370"
+    "PLUGINS_HASH": "a5cbccab065383088e9850ac5ebc87d7"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2204,6 +2359,7 @@
     },
     "connections": {
       "MarkdownRemark": [
+        null,
         null
       ]
     }
@@ -2221,10 +2377,6 @@
       "query": "query PageTemplateQuery(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      description\n      author {\n        name\n        url\n      }\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    excerpt\n    frontmatter {\n      title\n    }\n  }\n}\n",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/templates/page.tsx"
     },
-    "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js"
-    },
     "/Users/alexanderking/Projects/website-exoleaders/src/pages/404.tsx": {
       "query": "",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/pages/404.tsx"
@@ -2232,6 +2384,10 @@
     "/Users/alexanderking/Projects/website-exoleaders/src/pages/index.tsx": {
       "query": "",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/pages/index.tsx"
+    },
+    "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {

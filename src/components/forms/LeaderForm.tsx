@@ -20,7 +20,6 @@ class LeaderForm extends React.Component {
     + '&' + serialize(event.target);
 
     jsonp(url,{ param: `c` }, (err,data)=> {
-      debugger
       if(data !== null && data.result === "success"){
         this.setState({
           complete: true,

@@ -2,12 +2,7 @@ import * as React from 'react';
 import styled from '@emotion/styled';
 
 
-const StyledContainer = styled.div`
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-`;
+const StyledContainer = styled.div``;
 
 interface ContainerProps {
   className?: string;
