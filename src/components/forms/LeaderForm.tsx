@@ -38,7 +38,7 @@ class LeaderForm extends React.Component {
     if(this.state.complete){
       return ( <div className="domain-form-warp center">
       <div id="mc_embed_signup">
-      <h3>{this.state.message}</h3>
+      <h3 className="subscribe-msg">{this.state.message}</h3>
       </div></div>
       )
     }
@@ -77,7 +77,7 @@ class LeaderForm extends React.Component {
                 {/*  */}
                 <input type="hidden" value={groups.leaders} name={`group[189][${groups.leaders}]`} id="mce-group[189]-189-0" />
                 <div className="checkbox">
-                  <input type="checkbox" value={groups.movement} name={`group[189][${groups.movement}]`} id="mce-group[189]-189-1" />
+                  <input type="checkbox" value={groups.movement} name={`group[189][${groups.movement}]`} id="mce-group[189]-189-2" />
                   <label htmlFor="mce-group[189]-189-2">ExO Movement</label>
                 </div>
               </div>

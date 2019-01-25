@@ -125,6 +125,7 @@ ol {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
+	background-attachment: fixed;
 }
 
 .spad {
@@ -1791,3 +1792,30 @@ ol {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	#mc_embed_signup .asterisk {color:#ff7072; }
 }
+
+.core-logo {
+	width: 180px;
+	margin: 24px 0px;
+}
+.subscribe-msg {
+	text-align: center;
+	color: #fff;
+	padding: 64px 0;
+}
+/* exo stylys */
+
+.exo-footer {
+	padding: 50px 0;
+	background: #5c0c68;
+	text-align: center;
+}
+	.exo-footer .footer-widget li {
+		display: inline-block;
+		padding: 0 20px;
+	}
+		.exo-footer .footer-widget li a {
+			opacity: 1;
+		}
+	.exo-footer .copyright {
+		float: none;
+	}

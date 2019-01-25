@@ -14,13 +14,55 @@ import * as formBg from '../img/bg.jpg';
 import * as dreamerImage from '../img/dreamer.jpg';
 import * as finderImage from '../img/finder.jpg';
 
-// data
-const title= `Join the exoleaders community`;
-const dummyText = `Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas sit amet neque sed elementum.`
-const headerDescription = `Launchpad helps you build a new type of organization, an ExO or Exponential Organization.An ExO is a purpose-driven venture that leverages exponential technologies and a set of common attributes to grow and transform the world`;
 interface State {
   style: {
     opacity: number;
+  }
+};
+const DATA = {
+  en: {
+    hero: {
+      title: 'exo leaders',
+      description: 'Launchpad helps you build a new type of organization, an ExO or Exponential Organization. An ExO is a purpose-driven venture that leverages exponential technologies and a set of common attributes to grow and transform the world.',
+      btnLabel: 'Join the Community',
+    },
+    about: {
+      features: [
+        {
+          title: 'Why choose our company?',
+          description: () => `Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas sit amet neque sed elementum.Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas sit amet neque sed elementum.`,
+        },
+        {
+          title: 'Why you need this?',
+          description: () => `Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas sit amet neque sed elementumNullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas sit amet neque sed elementum.`,
+        }
+      ]
+    },
+    application: {
+      title: () => <>Do you want to join<br /> the community?</>,
+      fields: [
+        {
+          label: ''
+        }
+      ],
+      messages: {
+        success: '',
+        error: ''
+      }
+    },
+    footer: {
+      main: { text: 'OpenExO', url: 'https://www.exolever.com/' },
+      links: [
+        { text: 'Exponential Organizations', url: 'https://www.exponentialorgs.com/' },
+        { text: 'Exponential Transformation', url: 'https://www.exponentialtransformationbook.com/' },
+        { text: 'ExO Canvas', url: 'https://www.exocanvas.com/' },
+
+      ],
+      copyright: (year = new Date().getFullYear()) =>
+        <>
+          Building Exponential Organizations - OpenExO® {year} <br /> <small>Copyright &copy; {year} All rights reserved</small>
+        </>
+    }
   }
 };
 class IndexPage extends React.Component<any, State> {
@@ -31,7 +73,7 @@ class IndexPage extends React.Component<any, State> {
         <Page>
           <Hero
             title="ExO Leaders"
-            subtitle={headerDescription}
+            subtitle={DATA.en.hero.description}
             backgroundImage={sectionBg}
             cta={{ text: 'Join the Community', target: '#' }}
           />
@@ -39,8 +81,8 @@ class IndexPage extends React.Component<any, State> {
           <Section>
             <div className="row">
               <div className="col-lg-6 about-text">
-                <h3>Why choose our company?</h3>
-                <p>{dummyText}</p>
+                <h3>{DATA.en.about.features[0].title}</h3>
+                <p>{DATA.en.about.features[1].description()}</p>
               </div>
               <div className="col-lg-6">
                 <img src={dreamerImage} alt="" />
@@ -48,7 +90,7 @@ class IndexPage extends React.Component<any, State> {
             </div>
           </Section>
 
-          <HighlightSection title={title} tagline="" backgroundImage={formBg}>
+          <HighlightSection title={DATA.en.application.title()} tagline="" backgroundImage={formBg}>
             <LeaderForm />
           </HighlightSection>
 
@@ -58,13 +100,12 @@ class IndexPage extends React.Component<any, State> {
                 <img src={finderImage} alt="" />
               </div>
               <div className="col-lg-6 about-text">
-                <h3>Why choose our company?</h3>
-                <p>{dummyText}</p>
+              <h3>{DATA.en.about.features[1].title}</h3>
+                <p>{DATA.en.about.features[1].description()}</p>
               </div>
             </div>
           </Section>
-
-          <Footer links={[{ text: 'Link A', url: '/a' }, { text: 'Link B', url: '/b' }]} />
+          <Footer links={DATA.en.footer.links} copyright={DATA.en.footer.copyright} mainLogo={DATA.en.footer.main} />
         </Page>
         <style>
             {

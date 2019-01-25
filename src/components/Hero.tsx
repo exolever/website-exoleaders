@@ -11,7 +11,9 @@ interface Props {
   image?: string;
   backgroundImage: string;
 }
-
+const Logo = styled.img`
+  margin-bottom: 24px;
+`
 const Hero: React.SFC<Props> = ({ title, subtitle, cta, image, backgroundImage }) => {
 
   const ContainerWithBackgroundImage = styled.section`
@@ -27,7 +29,7 @@ const Hero: React.SFC<Props> = ({ title, subtitle, cta, image, backgroundImage }
         <div className="hero-content text-white">
           <div className="row">
             <div className="col-lg-6 pr-0">
-              <img src="/social/logo.svg" alt="exo leaders"/>
+              <Logo src="/social/logo.svg" alt="exo leaders"/>
               <p>{subtitle}</p>
               <a href={cta.target} className="site-btn ghost">{cta.text}</a>
             </div>
