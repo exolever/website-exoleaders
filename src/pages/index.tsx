@@ -9,7 +9,7 @@ import HighlightSection from '../components/HighlightSection';
 import IndexLayout from '../layouts';
 import LeaderForm from '../components/forms/LeaderForm';
 
-import * as sectionBg from '../img/bg-61.jpg';
+import * as sectionBg from '../img/bg-61-img.jpg';
 import * as formBg from '../img/bg.jpg';
 import * as dreamerImage from '../img/dreamer.jpg';
 import * as finderImage from '../img/finder.jpg';
@@ -96,7 +96,7 @@ class IndexPage extends React.Component<any, State> {
 
           <Section>
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 about-text-image">
                 <img src={finderImage} alt="" />
               </div>
               <div className="col-lg-6 about-text">

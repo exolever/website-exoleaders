@@ -127,7 +127,9 @@ ol {
 	background-position: top center;
 	background-attachment: fixed;
 }
-
+.hero-section.set-bg {
+	background-position: bottom center;
+}
 .spad {
 	padding-top: 105px;
 	padding-bottom: 105px;
@@ -1132,7 +1134,7 @@ ol {
 .about-text {
 	padding-top: 70px;
 }
-
+.about-text-image,
 .about-text h3 {
 	margin-bottom: 35px;
 }
@@ -1559,6 +1561,9 @@ ol {
 	.milestone-item {
 		margin-bottom: 40px;
 	}
+	.set-bg {
+		background-attachment: unset;
+	}
 }
 
 /* Large Mobile :480px. */
@@ -1680,6 +1685,7 @@ ol {
 	.milestone-item {
 		margin-bottom: 40px;
 	}
+
 }
 
 /* Medium Mobile :480px. */
@@ -1688,11 +1694,17 @@ ol {
 	.hero-section {
 		height: 600px;
 	}
+	.set-bg {
+		background-attachment: unset;
+	}
 }
 
 /* Small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+	.set-bg {
+		background-attachment: unset;
+	}
 	.site-logo {
 		margin-left: 15px;
 	}
@@ -1793,6 +1805,10 @@ ol {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	#mc_embed_signup .asterisk {color:#ff7072; }
+}
+@media only screen and (max-width: 479px) {
+#mc_embed_signup .checkbox { margin-left: 4px; margin-top: 16px;}
+
 }
 
 .core-logo {
