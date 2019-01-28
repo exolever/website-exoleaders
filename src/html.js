@@ -22,8 +22,8 @@ export default class HTML extends React.Component {
                 }
             `}
           </style>
-          <link rel="stylesheet" type="text/css" href="bootstrap.css" preload="true" />
-          <link rel="stylesheet" type="text/css" href="style.css" preload="true" />
+          <link rel="stylesheet" href="bootstrap.css" preload="true" />
+          <link rel="stylesheet" href="style.css" preload="true" />
           {this.props.preBodyComponents}
           <div
             key={`body`}

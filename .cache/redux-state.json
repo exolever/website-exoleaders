@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "73a5d1852fcb7deae4ca38a85b29d3e2",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -2074,14 +2083,16 @@
           "email": ""
         }
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-28T03:00:46.238Z",
+      "buildTime": "2019-01-28T07:16:33.230Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8f5f14cb9d70584cde85f628924dd848",
+        "contentDigest": "18ac0505ec44dfcb56a01a70807ec548",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2091,7 +2102,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d0fe704c854abf6e10a5205dcc7a40e1",
+        "contentDigest": "4fe9b92874668c5c7a8f76ad361ed247",
         "type": "Directory",
         "description": "Directory \"src/content\"",
         "owner": "gatsby-source-filesystem"
@@ -2103,7 +2114,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-28T03:00:51.265Z",
+      "accessTime": "2019-01-28T07:16:38.162Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2121,11 +2132,11 @@
       "blksize": 4096,
       "ino": 21276530,
       "blocks": 0,
-      "atimeMs": 1548644451265.1812,
+      "atimeMs": 1548659798162.4548,
       "mtimeMs": 1548378171941.1882,
       "ctimeMs": 1548378171941.1882,
       "birthtimeMs": 1548378171940.7817,
-      "atime": "2019-01-28T03:00:51.265Z",
+      "atime": "2019-01-28T07:16:38.162Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2373,6 +2384,10 @@
     "/Users/alexanderking/Projects/website-exoleaders/src/pages/index.tsx": {
       "query": "",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/pages/index.tsx"
+    },
+    "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
