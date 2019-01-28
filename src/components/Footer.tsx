@@ -20,6 +20,7 @@ const Footer: React.SFC<Props> = ({ links = [], copyright, mainLogo }) => (
     <div className="container">
       <div className="copyright">{copyright()}</div>
     </div>
+    <small className="container love"> Made with ❤ by <a target="_blank" href="https://www.exodevhub.com">exodevhub</a></small>
   </footer>
 );
 

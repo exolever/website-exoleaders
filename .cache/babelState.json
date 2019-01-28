@@ -6,8 +6,8 @@
         {
           "name": "@emotion/babel-preset-css-prop",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },
@@ -27,8 +27,8 @@
         {
           "name": "@emotion/babel-preset-css-prop",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },
@@ -48,8 +48,8 @@
         {
           "name": "@emotion/babel-preset-css-prop",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },
@@ -69,8 +69,8 @@
         {
           "name": "@emotion/babel-preset-css-prop",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
+            "sourceMap": false,
+            "autoLabel": false,
             "plugins": []
           }
         },

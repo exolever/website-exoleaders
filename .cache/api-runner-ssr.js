@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/alexanderking/Projects/website-exoleaders/node_modules/gatsby-plugin-hotjar/gatsby-ssr'),
+      options: {"plugins":[],"id":1175385,"sv":6},
+    },{
+      plugin: require('/Users/alexanderking/Projects/website-exoleaders/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-133300815-1","head":true,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"variationId":"0","cookieDomain":"exoleaders.com"},
+    },{
       plugin: require('/Users/alexanderking/Projects/website-exoleaders/node_modules/gatsby-plugin-canonical-urls/gatsby-ssr'),
       options: {"plugins":[],"siteUrl":"http://exodevhub.com"},
     },{

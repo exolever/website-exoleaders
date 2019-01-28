@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "73a5d1852fcb7deae4ca38a85b29d3e2",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -338,6 +329,160 @@
       "children": [],
       "internal": {
         "contentDigest": "e469ee7ad4c12cb62741d7a9de4f8fb9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "637735ea-9be0-509e-badd-7822ee3a0189": {
+      "resolve": "/Users/alexanderking/Projects/website-exoleaders/node_modules/gatsby-plugin-hotjar",
+      "id": "637735ea-9be0-509e-badd-7822ee3a0189",
+      "name": "gatsby-plugin-hotjar",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "id": 1175385,
+        "sv": 6
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/alexanderking/Projects/website-exoleaders/node_modules/gatsby-plugin-hotjar",
+      "packageJson": {
+        "name": "gatsby-plugin-hotjar",
+        "description": "Gatsby plugin to add Hotjar analytics to your site.",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "hotjar"
+        ],
+        "author": {
+          "name": "Pavlo Kochubei",
+          "email": "pavlo.kochubei@hotmail.com",
+          "url": "https://pavlokochubei.com/"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-latest",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-preset-stage-0",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2b776ec61abbeabb88763277a68b6b45",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e1aa406a-55eb-5816-8989-eab9ec0cd550": {
+      "resolve": "/Users/alexanderking/Projects/website-exoleaders/node_modules/gatsby-plugin-google-analytics",
+      "id": "e1aa406a-55eb-5816-8989-eab9ec0cd550",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-133300815-1",
+        "head": true,
+        "anonymize": true,
+        "respectDNT": true,
+        "exclude": [
+          "/preview/**",
+          "/do-not-track/me/too/"
+        ],
+        "variationId": "0",
+        "cookieDomain": "exoleaders.com"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/alexanderking/Projects/website-exoleaders/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "43cea1f3084fb8ec4dc304fe731ef14a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1753,7 +1898,7 @@
       "resolve": "/Users/alexanderking/Projects/website-exoleaders",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "2b7c40551d5257722ee9411bc36e70d4",
+      "version": "79a354b0e18eca27ba31ff4796d80707",
       "pluginOptions": {
         "plugins": []
       },
@@ -1809,6 +1954,10 @@
           {
             "name": "gatsby-plugin-emotion",
             "version": "^4.0.1"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.10"
           },
           {
             "name": "gatsby-plugin-purgecss",
@@ -1899,6 +2048,10 @@
             "version": "^5.2.0"
           },
           {
+            "name": "react-hotjar",
+            "version": "^1.0.11"
+          },
+          {
             "name": "typescript",
             "version": "^3.0.3"
           }
@@ -1927,6 +2080,10 @@
           {
             "name": "@types/react-helmet",
             "version": "^5.0.7"
+          },
+          {
+            "name": "gatsby-plugin-hotjar",
+            "version": "^1.0.1"
           },
           {
             "name": "gh-pages",
@@ -1964,7 +2121,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3ab9609447ff2706b9c9756a6508bc74",
+        "contentDigest": "7630ccf6cd26b0aa2040f2f8d97f77c8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2083,16 +2240,14 @@
           "email": ""
         }
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-28T07:16:33.230Z",
+      "buildTime": "2019-01-28T08:17:37.393Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "18ac0505ec44dfcb56a01a70807ec548",
+        "contentDigest": "f4968fecc36c5dc413dffb0aa9291156",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2102,7 +2257,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4fe9b92874668c5c7a8f76ad361ed247",
+        "contentDigest": "102d35e11c8328f9b9a2afa12682ef6f",
         "type": "Directory",
         "description": "Directory \"src/content\"",
         "owner": "gatsby-source-filesystem"
@@ -2114,7 +2269,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-28T07:16:38.162Z",
+      "accessTime": "2019-01-28T08:17:42.378Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2132,11 +2287,11 @@
       "blksize": 4096,
       "ino": 21276530,
       "blocks": 0,
-      "atimeMs": 1548659798162.4548,
+      "atimeMs": 1548663462377.8682,
       "mtimeMs": 1548378171941.1882,
       "ctimeMs": 1548378171941.1882,
       "birthtimeMs": 1548378171940.7817,
-      "atime": "2019-01-28T07:16:38.162Z",
+      "atime": "2019-01-28T08:17:42.378Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2159,7 +2314,7 @@
       "size": 0,
       "prettySize": "0 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-28T01:54:22.491Z",
+      "accessTime": "2019-01-28T07:51:49.282Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2177,11 +2332,11 @@
       "blksize": 4096,
       "ino": 21276531,
       "blocks": 0,
-      "atimeMs": 1548640462490.617,
+      "atimeMs": 1548661909282.1023,
       "mtimeMs": 1548378171940.8728,
       "ctimeMs": 1548378171940.8728,
       "birthtimeMs": 1548378171940.8728,
-      "atime": "2019-01-28T01:54:22.491Z",
+      "atime": "2019-01-28T07:51:49.282Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2206,7 +2361,7 @@
       "size": 533,
       "prettySize": "533 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-28T01:54:22.491Z",
+      "accessTime": "2019-01-28T07:51:47.871Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2224,11 +2379,11 @@
       "blksize": 4096,
       "ino": 21276532,
       "blocks": 8,
-      "atimeMs": 1548640462490.7744,
+      "atimeMs": 1548661907871.3337,
       "mtimeMs": 1548378171941.452,
       "ctimeMs": 1548378171941.452,
       "birthtimeMs": 1548378171941.1787,
-      "atime": "2019-01-28T01:54:22.491Z",
+      "atime": "2019-01-28T07:51:47.871Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2345,7 +2500,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "51a9259f579fed26db44a6a6e47e1203"
+    "PLUGINS_HASH": "e01dab13b2aad679afa6711ba969ce44"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2384,10 +2539,6 @@
     "/Users/alexanderking/Projects/website-exoleaders/src/pages/index.tsx": {
       "query": "",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/pages/index.tsx"
-    },
-    "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {

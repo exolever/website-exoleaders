@@ -1836,3 +1836,10 @@ ol {
 	.exo-footer .copyright {
 		float: none;
 	}
+.love {
+	color: rgba(255, 255, 255, 0.25)
+}
+.love a {
+	color: rgba(255, 255, 255, 0.25);
+	text-decoration: underline;
+}
