@@ -2076,12 +2076,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-28T01:56:36.665Z",
+      "buildTime": "2019-01-28T03:00:46.238Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7fcabf29843c9eccc324943078a33dc4",
+        "contentDigest": "8f5f14cb9d70584cde85f628924dd848",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2091,7 +2091,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1421f48bfbe5779b9e49f0d9a33e73f5",
+        "contentDigest": "d0fe704c854abf6e10a5205dcc7a40e1",
         "type": "Directory",
         "description": "Directory \"src/content\"",
         "owner": "gatsby-source-filesystem"
@@ -2103,7 +2103,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-28T01:56:41.629Z",
+      "accessTime": "2019-01-28T03:00:51.265Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2121,11 +2121,11 @@
       "blksize": 4096,
       "ino": 21276530,
       "blocks": 0,
-      "atimeMs": 1548640601628.849,
+      "atimeMs": 1548644451265.1812,
       "mtimeMs": 1548378171941.1882,
       "ctimeMs": 1548378171941.1882,
       "birthtimeMs": 1548378171940.7817,
-      "atime": "2019-01-28T01:56:41.629Z",
+      "atime": "2019-01-28T03:00:51.265Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2339,8 +2339,8 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-layouts-index-tsx",
-        "/a-markdown-page/"
+        "/a-markdown-page/",
+        "sq--src-layouts-index-tsx"
       ],
       "5a838783-f6a9-5015-9e43-59e7438c2d5f": [
         "/a-markdown-page/"
@@ -2348,6 +2348,7 @@
     },
     "connections": {
       "MarkdownRemark": [
+        null,
         null
       ]
     }

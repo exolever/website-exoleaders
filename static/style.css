@@ -1569,7 +1569,6 @@ ol {
 /* Large Mobile :480px. */
 
 @media only screen and (max-width: 767px) {
-	#mc_embed_signup .asterisk {color:#ff7072; }
 	.header-section {
 		padding-bottom: 20px;
 	}
@@ -1779,7 +1778,7 @@ ol {
 	line-height: 1;
 	vertical-align: middle;}
 #mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; height: auto; border:none;}
-
+#mc_embed_signup .asterisk {color:#7558ff; }
 #mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;}
 #mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
 #mc_embed_signup #mce-error-response {display:none;}
@@ -1801,14 +1800,14 @@ ol {
 #mc_embed_signup .checkbox input { margin-top: 0; padding: 8px 0; vertical-align: top; }
 #mc_embed_signup .checkbox > *  {  flex: 1};
 @media only screen and (max-width: 767px) {
-	#mc_embed_signup .asterisk {color:#ff7072; }
+	/* #mc_embed_signup .asterisk {color:#7558ff; } */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	#mc_embed_signup .asterisk {color:#ff7072; }
+	/* #mc_embed_signup .asterisk {color:#ff7072; } */
 }
 @media only screen and (max-width: 479px) {
 #mc_embed_signup .checkbox { margin-left: 4px; margin-top: 16px;}
-
+/* #mc_embed_signup .asterisk {color:#ff7072; } */
 }
 
 .core-logo {
