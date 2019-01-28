@@ -7,6 +7,14 @@ export default class HTML extends React.Component {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
+        <style>
+            {` body {
+                  opacity: 0;
+                }
+            `}
+          </style>
+          <link rel="stylesheet" href="bootstrap.css" preload="true" />
+          <link rel="stylesheet" href="style.css" preload="true" />
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
@@ -17,14 +25,6 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>
-          <style>
-            {` body {
-                  opacity: 0;
-                }
-            `}
-          </style>
-          <link rel="stylesheet" href="bootstrap.css" preload="true" />
-          <link rel="stylesheet" href="style.css" preload="true" />
           {this.props.preBodyComponents}
           <div
             key={`body`}
