@@ -1,8 +1,7 @@
 {
   "name": "website-exoleaders",
   "alias": [
-    "exoleaders.now.sh",
-    "exoleaders.com"
+    "staging.exolaunchpad.com"
   ],
   "github": {
     "enabled": true,
