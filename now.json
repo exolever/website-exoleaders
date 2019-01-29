@@ -1,11 +1,12 @@
 {
   "name": "website-exoleaders",
   "alias": [
-    "exoleaders.now.sh"
+    "exoleaders.now.sh",
+    "exoleaders.com"
   ],
   "github": {
     "enabled": true,
-    "autoAlias": true
+    "autoAlias": false
   },
   "builds": [
     { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
