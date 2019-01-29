@@ -13,6 +13,8 @@ import * as sectionBg from '../img/bg-61-img.jpg';
 import * as formBg from '../img/bg.jpg';
 import * as dreamerImage from '../img/dreamer.jpg';
 import * as finderImage from '../img/finder.jpg';
+import * as diagram from '../img/leadership-diagram.png';
+import * as jaroslav from '../img/jaroslav2.png';
 
 interface State {
   style: {
@@ -22,20 +24,44 @@ interface State {
 const DATA = {
   en: {
     hero: {
-      title: 'exo leaders',
-      description: 'Launchpad helps you build a new type of organization, an ExO or Exponential Organization. An ExO is a purpose-driven venture that leverages exponential technologies and a set of common attributes to grow and transform the world.',
+      title: 'EXO LEADERSHIP',
+      description: 'The World is changing faster than anyone could predict. ​Are you ready to lead your organization into the Future?',
       btnLabel: 'Join the Community',
     },
     about: {
       features: [
         {
           title: 'Why choose our company?',
-          description: () => `Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas sit amet neque sed elementum.Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas sit amet neque sed elementum.`,
+          description: () => `We offer premium services to help leaders develop the necessary mindset, skills and capabilities to transform themselves and their organisations for the Future.`
         },
         {
-          title: 'Why you need this?',
-          description: () => `Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas sit amet neque sed elementumNullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Vivamus auctor mi eget odio feugiat, quis aliquet velit ornare. Integer egestas sit amet neque sed elementum.`,
-        }
+          title: '',
+          description: () => <><p><h4>Leaders</h4> improve the status quo and serves as a role-model to others for their behaviour</p>
+            <p><h4>Leadership paradigms</h4> shape how leaders perceive the world and how they think and act</p>
+            <p><span className="fa fa-user"></span><h4>ExO Leader </h4>takes an active role in creating a better future shaped by the rapid growth of
+            exponential technologies and consistently behaves in alignment with this purpose.</p>
+            <p><h4>ExO Leadership</h4> is a new paradigm of leadership which is essential for humanity to steer towards a positive version of the future which fully benefits from the available opportunities while avoiding dangers, challenges and overcoming past limitations.</p>
+          </>
+        },
+        {
+          title: 'ExO Leadership Book',
+          description: () => `We are currently working on codifying our experience and insights about this new leadership paradigm
+          ​into a brand new book which will be published in 2019.`,
+        },
+        {
+          title: 'ExO Leadership Book',
+          description: () => `We are currently working on codifying our experience and insights about this new leadership paradigm
+          ​into a brand new book which will be published in 2019.`,
+        },
+        {
+          title: 'Jaroslav Dokoupil',
+          description: () => <>
+            <p>ExO Leadership framework has been developed by Jaroslav in collaboration with a global ecosystem of thought-leaders, entrepreneurs, consultants and leadership practitioners.</p>
+            <p>Jaroslav is an entrepreneur, consultant, coach and trainer working at the intersection of leadership, innovation, technology and sustainability. He has 15 years of global experience having worked with clients in over 30 countries. During his career, he has designed and delivered close to 10,000 hours of programmes, sessions and workshops to corporate, entrepreneurial, public and NGO clients</p>
+            <p>Jaroslav currently acts as a CEO of OpenExO, a global transformation ecosystem building a better future. He has also co-founded and manages RQ Genesis, an innovative consultancy helping leaders to create sustainable value and for over 10 years, has worked with Future Considerations, a boutique leadership development consultancy based in London. He also spent 6 years at various leadership positions at AIESEC, largest youth-lead leadership development organization in the world and took part in one of the largest-ever cultural transformation programme for a global financial institution touching  200,000 people worldwide.</p>
+            <p>Jaroslav has lived and worked in UK, US, Spain, Belgium, Netherlands and the Czech Republic and has travelled to 50 countries to date.</p>
+          </>
+        },
       ]
     },
     application: {
@@ -77,15 +103,23 @@ class IndexPage extends React.Component<any, State> {
             backgroundImage={sectionBg}
             cta={{ text: 'Join the Community', target: '#community' }}
           />
+          <div className="intro container">
+            <h2>{DATA.en.about.features[0].description()}</h2>
+          </div>
 
           <Section>
-            <div className="row">
-              <div className="col-lg-6 about-text">
-                <h3>{DATA.en.about.features[0].title}</h3>
+            <div className="row section-1">
+              <div className="col-lg-12 text">
                 <p>{DATA.en.about.features[1].description()}</p>
               </div>
-              <div className="col-lg-6">
-                <img src={dreamerImage} alt="" />
+
+            </div>
+          </Section>
+
+          <Section>
+            <div className="row  section-2">
+              <div className="col-lg-12 ">
+                <img src={diagram} alt="" />
               </div>
             </div>
           </Section>
@@ -100,24 +134,35 @@ class IndexPage extends React.Component<any, State> {
                 <img src={finderImage} alt="" />
               </div>
               <div className="col-lg-6 about-text">
-              <h3>{DATA.en.about.features[1].title}</h3>
-                <p>{DATA.en.about.features[1].description()}</p>
+                <h3>{DATA.en.about.features[3].title}</h3>
+                <p>{DATA.en.about.features[3].description()}</p>
               </div>
             </div>
           </Section>
-          <Footer links={DATA.en.footer.links} copyright={DATA.en.footer.copyright} mainLogo={DATA.en.footer.main} />
+          <Section>
+            <div className="row">
+              <div className="col-lg-6 about-text-image">
+                <img src={jaroslav} alt="" />
+              </div>
+              <div className="col-lg-6">
+                <h3>Jaroslav Dokoupil</h3>
+                <div className="paragraph"><strong>ExO Leadership framework</strong> has been developed by Jaroslav in collaboration with a global ecosystem of thought-leaders, entrepreneurs, consultants and leadership practitioners.<br/><br/>&#8203;Jaroslav&nbsp;is an&nbsp;<strong>entrepreneur, consultant, coach&nbsp;</strong>and&nbsp;<strong>trainer</strong>&nbsp;working at the intersection of&nbsp;<strong>leadership, innovation, technology</strong>&nbsp;and&nbsp;<strong>sustainability</strong>. He has&nbsp;<strong>15 years of global experience</strong>&nbsp;having worked with clients in over <strong>30 countries</strong>. During his career, he has designed and delivered close to&nbsp;<strong>10,000 hours</strong>&nbsp;of programmes, sessions and workshops to corporate, entrepreneurial, public and NGO clients.<br /><br />Jaroslav currently acts as a <strong>CEO</strong> of <strong><a href="http://www.openexo.com" target="_blank">OpenExO</a></strong>, a global transformation ecosystem building a better future. He has also co-founded and manages&nbsp;<a href="http://www.rqgenesis.com/" target="_blank"><strong>RQ Genesis</strong></a>, an innovative consultancy helping leaders to create sustainable value and for over 10 years, has worked with&nbsp;<a href="http://www.futureconsiderations.com/" target="_blank"><strong>Future Considerations</strong></a>, a boutique leadership development consultancy based in London. He also spent&nbsp;6 years at various leadership positions at <strong><a href="http://www.aiesec.org" target="_blank">AIESEC</a></strong>, largest youth-lead leadership development organization in the world and took part in one of the largest-ever cultural transformation programme for a&nbsp;global financial institution touching &nbsp;<strong>200,000 people worldwide.</strong><br /><br />Jaroslav has lived and worked in&nbsp;<strong>UK, US, Spain, Belgium, Netherlands</strong>&nbsp;and the&nbsp;<strong>Czech Republic</strong>&nbsp;and has travelled to <strong>50</strong> countries to date.</div>
+              </div>
+            </div>
+          </Section>
+                  <Footer links={DATA.en.footer.links} copyright={DATA.en.footer.copyright} mainLogo={DATA.en.footer.main} />
         </Page>
-        <style>
-            {
-              `body {
+                  <style>
+                    {
+                      `body {
                 transition: opacity ease 0.5s;
                 opacity: 1;
               }`
-            }
-          </style>
+                    }
+                  </style>
       </IndexLayout>
-    )
-  }
-}
+                  )
+                }
+              }
 
-export default IndexPage;
+              export default IndexPage;

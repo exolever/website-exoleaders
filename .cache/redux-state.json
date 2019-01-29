@@ -2253,12 +2253,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-29T02:20:44.588Z",
+      "buildTime": "2019-01-29T09:00:37.450Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "17e3987b31856e0e0b6f3c3ab3af0639",
+        "contentDigest": "c0622599c04f3664454521e70afbbe9a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2268,7 +2268,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "59f04fad3c4e8c9374c7c1b401585fd9",
+        "contentDigest": "20183b2e81dc175bc234536659a47bff",
         "type": "Directory",
         "description": "Directory \"src/content\"",
         "owner": "gatsby-source-filesystem"
@@ -2280,7 +2280,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-29T02:20:51.306Z",
+      "accessTime": "2019-01-29T09:00:42.845Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2298,11 +2298,11 @@
       "blksize": 4096,
       "ino": 21276530,
       "blocks": 0,
-      "atimeMs": 1548728451306.038,
+      "atimeMs": 1548752442844.672,
       "mtimeMs": 1548378171941.1882,
       "ctimeMs": 1548378171941.1882,
       "birthtimeMs": 1548378171940.7817,
-      "atime": "2019-01-29T02:20:51.306Z",
+      "atime": "2019-01-29T09:00:42.845Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2325,7 +2325,7 @@
       "size": 0,
       "prettySize": "0 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-28T07:51:49.282Z",
+      "accessTime": "2019-01-25T01:02:51.941Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2343,11 +2343,11 @@
       "blksize": 4096,
       "ino": 21276531,
       "blocks": 0,
-      "atimeMs": 1548661909282.1023,
+      "atimeMs": 1548378171940.8728,
       "mtimeMs": 1548378171940.8728,
       "ctimeMs": 1548378171940.8728,
       "birthtimeMs": 1548378171940.8728,
-      "atime": "2019-01-28T07:51:49.282Z",
+      "atime": "2019-01-25T01:02:51.941Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2372,7 +2372,7 @@
       "size": 533,
       "prettySize": "533 B",
       "modifiedTime": "2019-01-25T01:02:51.941Z",
-      "accessTime": "2019-01-28T07:51:47.871Z",
+      "accessTime": "2019-01-29T02:20:51.885Z",
       "changeTime": "2019-01-25T01:02:51.941Z",
       "birthTime": "2019-01-25T01:02:51.941Z",
       "root": "/",
@@ -2390,11 +2390,11 @@
       "blksize": 4096,
       "ino": 21276532,
       "blocks": 8,
-      "atimeMs": 1548661907871.3337,
+      "atimeMs": 1548728451884.712,
       "mtimeMs": 1548378171941.452,
       "ctimeMs": 1548378171941.452,
       "birthtimeMs": 1548378171941.1787,
-      "atime": "2019-01-28T07:51:47.871Z",
+      "atime": "2019-01-29T02:20:51.885Z",
       "mtime": "2019-01-25T01:02:51.941Z",
       "ctime": "2019-01-25T01:02:51.941Z",
       "birthtime": "2019-01-25T01:02:51.941Z"
@@ -2511,7 +2511,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "e01dab13b2aad679afa6711ba969ce44"
+    "PLUGINS_HASH": "89311ef51a813d0641ccfc809c239f66"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2543,6 +2543,10 @@
       "query": "query PageTemplateQuery(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      description\n      author {\n        name\n        url\n      }\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    excerpt\n    frontmatter {\n      title\n    }\n  }\n}\n",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/templates/page.tsx"
     },
+    "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js"
+    },
     "/Users/alexanderking/Projects/website-exoleaders/src/pages/404.tsx": {
       "query": "",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/pages/404.tsx"
@@ -2550,10 +2554,6 @@
     "/Users/alexanderking/Projects/website-exoleaders/src/pages/index.tsx": {
       "query": "",
       "componentPath": "/Users/alexanderking/Projects/website-exoleaders/src/pages/index.tsx"
-    },
-    "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/alexanderking/Projects/website-exoleaders/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
