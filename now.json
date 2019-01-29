@@ -8,14 +8,7 @@
     "autoAlias": true
   },
   "builds": [
-    { "src": "*.html", "use": "@now/static" },
-    { "src": "*.js", "use": "@now/node" }
-  ],
-  "routes": [{
-    "src": "/",
-    "dest": "/public/index.html",
-    "status": 200
-    }
+    { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
   ],
   "version": 2
 }
