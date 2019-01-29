@@ -72,6 +72,7 @@ const DATA = {
         groups: {
           leaders: { id: 2, hidden: true },
           movement: { id: 4, label: 'Join the general ExO Movement email list' },
+        },
       },
       messages: {
         success: 'Thanks for joining our community!',
@@ -131,7 +132,7 @@ class IndexPage extends React.Component<any, State> {
           </Section>
 
           <LeaderForm
-            title={DATA.en.application.title()}
+            title={DATA.en.form.title()}
             labels={DATA.en.form.labels}
             fields={DATA.en.form.fields}
             messages={DATA.en.form.messages}
