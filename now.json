@@ -3,5 +3,19 @@
   "alias": [
     "exoleaders.now.sh"
   ],
+  "github": {
+    "enabled": true,
+    "autoAlias": true
+  },
+  "builds": [
+    { "src": "*.html", "use": "@now/static" },
+    { "src": "*.js", "use": "@now/node" }
+  ],
+  "routes": [{
+    "src": "/",
+    "dest": "/public/index.html",
+    "status": 200
+    }
+  ],
   "version": 2
 }

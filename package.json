@@ -13,6 +13,7 @@
     "clean": "rimraf public",
     "deploy": "gatsby build; cd public; now --name website-exoleaders",
     "dev": "gatsby develop",
+    "now-build": "npm run build",
     "format": "prettier --semi --write \"src/**/*.{ts,tsx,md}\"",
     "lint": "tslint 'src/**/*.{ts,tsx}' -p tsconfig.json",
     "start": "npm run dev",
