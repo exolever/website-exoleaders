@@ -11,7 +11,6 @@ import LeaderForm from '../components/forms/LeaderForm';
 
 import * as sectionBg from '../img/bg-61-img.jpg';
 import * as sectionBgAlt from '../img/bg-61-img-alt.jpg';
-
 import * as formBg from '../img/bg.jpg';
 import * as dreamerImage from '../img/dreamer.jpg';
 import * as finderImage from '../img/finder.jpg';
@@ -58,16 +57,26 @@ const DATA = {
         },
       ]
     },
-    application: {
+    form: {
       title: () => <>ExO Leadership contact list</>,
-      fields: [
-        {
-          label: ''
-        }
-      ],
+      labels: {
+        required: 'indicates required',
+        submit: 'Subscribe',
+        email: 'Email Address',
+        name: 'Name',
+        location: 'Preferred Location of Summit/Workshop',
+        linkedIn: 'LinkedIn URL',
+        button: 'Subscribe'
+      },
+      fields: {
+        groups: {
+          leaders: { id: 2, hidden: true },
+          movement: { id: 4, label: 'Join the general ExO Movement email list' },
+        },
+      },
       messages: {
-        success: '',
-        error: ''
+        success: 'Thanks for joining our community!',
+        error: 'Please try it later, again.'
       }
     },
     footer: {
@@ -76,7 +85,6 @@ const DATA = {
         { text: 'Exponential Organizations', url: 'https://www.exponentialorgs.com/' },
         { text: 'Exponential Transformation', url: 'https://www.exponentialtransformationbook.com/' },
         { text: 'ExO Canvas', url: 'https://www.exocanvas.com/' },
-
       ],
       copyright: (year = new Date().getFullYear()) =>
         <>
@@ -123,9 +131,12 @@ class IndexPage extends React.Component<any, State> {
             </div>
           </Section>
 
-          <HighlightSection title={DATA.en.application.title()} tagline="" backgroundImage={formBg}>
-            <LeaderForm />
-          </HighlightSection>
+          <LeaderForm
+            title={DATA.en.form.title()}
+            labels={DATA.en.form.labels}
+            fields={DATA.en.form.fields}
+            messages={DATA.en.form.messages}
+          />
 
 
           <Section>
