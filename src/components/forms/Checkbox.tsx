@@ -11,6 +11,7 @@ interface Props {
 
 const Checkbox: React.SFC<Props> = ({ id, name, value, label, onClick }) => {
   const Body = styled.div`
+    margin: 0 20px 10px 0;
     user-select: none;
 
     &:hover {
@@ -22,6 +23,7 @@ const Checkbox: React.SFC<Props> = ({ id, name, value, label, onClick }) => {
   const Input = styled.input`
     &&&& {
       appearance: none;
+      position: absolute;
       display: inline-block;
       width: 30px;
       height: 30px;
@@ -36,6 +38,7 @@ const Checkbox: React.SFC<Props> = ({ id, name, value, label, onClick }) => {
     &&&& {
       position: relative;
       top: 2px;
+      padding-left: 40px;
       cursor: pointer;
 
       &:before {
