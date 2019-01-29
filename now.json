@@ -6,7 +6,7 @@
   ],
   "github": {
     "enabled": true,
-    "autoAlias": false
+    "autoAlias": true
   },
   "builds": [
     { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
