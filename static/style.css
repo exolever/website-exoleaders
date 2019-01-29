@@ -36,6 +36,7 @@ h1 {
 
 h2 {
 	font-size: 36px;
+	color: #3c1597;
 }
 
 h3 {
@@ -86,6 +87,10 @@ ol {
 /*---------------------
   Helper CSS
 -----------------------*/
+.intro {
+	padding-top: 128px;
+	text-align: center;
+}
 
 .section-title {
 	margin-bottom: 80px;
@@ -1806,4 +1811,17 @@ ol {
 .love a {
 	color: rgba(255, 255, 255, 0.25);
 	text-decoration: underline;
+}
+
+
+.section-1  .text  p {
+	margin-bottom: 32px;
+}
+
+a {
+	color: #670973;
+	text-decoration: underline;
+}
+a:hover {
+	color: #b311c8;
 }
