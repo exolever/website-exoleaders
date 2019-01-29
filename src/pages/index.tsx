@@ -10,7 +10,7 @@ import IndexLayout from '../layouts';
 import LeaderForm from '../components/forms/LeaderForm';
 
 import * as sectionBg from '../img/bg-61-img.jpg';
-import * as formBg from '../img/bg.jpg';
+
 import * as dreamerImage from '../img/dreamer.jpg';
 import * as finderImage from '../img/finder.jpg';
 
@@ -38,17 +38,29 @@ const DATA = {
         }
       ]
     },
+    form: {
+      labels: {
+        required: 'indicates required',
+        submit: 'Subscribe',
+        email: 'Email Address',
+        name: 'Name',
+        location: 'Preferred Location of Summit/Workshop',
+        linkedIn: 'LinkedIn URL',
+        button: 'Subscribe'
+      },
+      fields: {
+        groups: {
+          leaders: { id: 2, hidden: true },
+          movement: { id: 4, label: 'Join the general ExO Movement email list' },
+        }
+      },
+      messages: {
+        success: 'Thanks for joining our community!',
+        error: 'Please try it later, again.'
+      }
+    },
     application: {
       title: () => <>Do you want to join<br /> the community?</>,
-      fields: [
-        {
-          label: ''
-        }
-      ],
-      messages: {
-        success: '',
-        error: ''
-      }
     },
     footer: {
       main: { text: 'OpenExO', url: 'https://www.exolever.com/' },
@@ -56,7 +68,6 @@ const DATA = {
         { text: 'Exponential Organizations', url: 'https://www.exponentialorgs.com/' },
         { text: 'Exponential Transformation', url: 'https://www.exponentialtransformationbook.com/' },
         { text: 'ExO Canvas', url: 'https://www.exocanvas.com/' },
-
       ],
       copyright: (year = new Date().getFullYear()) =>
         <>
@@ -90,9 +101,12 @@ class IndexPage extends React.Component<any, State> {
             </div>
           </Section>
 
-          <HighlightSection title={DATA.en.application.title()} tagline="" backgroundImage={formBg}>
-            <LeaderForm />
-          </HighlightSection>
+          <LeaderForm
+            title={DATA.en.application.title()}
+            labels={DATA.en.form.labels}
+            fields={DATA.en.form.fields}
+            messages={DATA.en.form.messages}
+          />
 
           <Section>
             <div className="row">
