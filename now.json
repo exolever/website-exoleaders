@@ -1,11 +1,11 @@
 {
   "name": "website-exoleaders",
   "alias": [
-    "staging.exolaunchpad.com"
+    "exoleaders.now.sh"
   ],
   "github": {
     "enabled": true,
-    "autoAlias": true
+    "autoAlias": false
   },
   "builds": [
     { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
