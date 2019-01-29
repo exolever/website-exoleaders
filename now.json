@@ -1,5 +1,7 @@
 {
   "name": "website-exoleaders",
-  "alias": "exoleaders.now.sh",
+  "alias": [
+    "exoleaders.now.sh"
+  ],
   "version": 2
 }
