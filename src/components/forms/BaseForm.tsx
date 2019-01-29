@@ -38,6 +38,7 @@ interface Props {
   enableLocation?: boolean;
   enableLinkedIn?: boolean;
   enableGroups?: Group[];
+  groupTitle?: any;
 }
 
 interface State {
@@ -85,7 +86,7 @@ class BaseForm extends React.Component<Props, State> {
   }
 
   render() {
-    const { labels, enableName, enableLocation, enableLinkedIn, enableGroups } = this.props;
+    const { labels, enableName, enableLocation, enableLinkedIn, enableGroups, groupTitle } = this.props;
     const visibleGroups = enableGroups ? enableGroups.filter(group => !group.hidden): [];
     const hiddenGroups = enableGroups ? enableGroups.filter(group => group.hidden): [];
 
@@ -130,18 +131,21 @@ class BaseForm extends React.Component<Props, State> {
                   <input type="text" defaultValue="" name="LINKEDIN" id={`mce-LINKEDIN-${this.id}`} />
                 </div>}
               {enableGroups &&
-                <div className="mc-field-group input-group">
-                  {hiddenGroups.map(group =>
-                    <input key={group.id} type="hidden" value={group.id} name={`group[189][${group.id}]`} readOnly />)}
-                  {visibleGroups.map(group =>
-                    <Checkbox
-                      key={group.id}
-                      id={`mce-group[189][${group.id}]-${this.id}`}
-                      name={`group[189][${group.id}]`}
-                      value={group.id}
-                      label={group.label}
-                    />
-                  )}
+                <div className="mc-field-group">
+                  {groupTitle && <div><label>{groupTitle}</label></div>}
+                  <div className="input-group">
+                    {hiddenGroups.map(group =>
+                      <input key={group.id} type="hidden" value={group.id} name={`group[189][${group.id}]`} readOnly />)}
+                    {visibleGroups.map(group =>
+                      <Checkbox
+                        key={group.id}
+                        id={`mce-group[189][${group.id}]-${this.id}`}
+                        name={`group[189][${group.id}]`}
+                        value={group.id}
+                        label={group.label}
+                      />
+                    )}
+                  </div>
                 </div>}
               {this.state.message &&
                 <div className="mce-responses clear" dangerouslySetInnerHTML={{ __html: this.state.message }} />}

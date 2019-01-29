@@ -11,6 +11,7 @@ interface Props {
 
 const Checkbox: React.SFC<Props> = ({ id, name, value, label, onClick }) => {
   const Body = styled.div`
+    margin: 0 20px 10px 0;
     user-select: none;
 
     &:hover {

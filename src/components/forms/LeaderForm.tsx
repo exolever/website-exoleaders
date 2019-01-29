@@ -6,7 +6,7 @@ import formBg from '../../img/bg.jpg';
 interface Props {
   title: any;
   labels: any;
-  fields: { groups: any };
+  fields: { groups: any; groupTitle?: any; };
   messages: any;
 }
 
@@ -20,9 +20,13 @@ const LeaderForm: React.SFC<Props> = ({ title, labels, fields, messages }) => {
         enableLocation
         enableLinkedIn
         enableGroups={[
-          fields.groups.leaders,
-          fields.groups.movement
+          fields.groups.leadership,
+          fields.groups.leadershipBook,
+          fields.groups.leadershipServices,
+          fields.groups.leadershipWorkTogether,
+          fields.groups.leadershipOther
         ]}
+        groupTitle={fields.groupTitle}
       />
     </HighlightSection>
   )

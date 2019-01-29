@@ -70,9 +70,13 @@ const DATA = {
       },
       fields: {
         groups: {
-          leaders: { id: 2, hidden: true },
-          movement: { id: 4, label: 'Join the general ExO Movement email list' },
+          leadership: { id: 2, hidden: true },
+          leadershipBook: { id: 32, label: 'ExO Leadership Book' },
+          leadershipServices: { id: 16, label: 'ExO Leadership Services' },
+          leadershipWorkTogether: { id: 64, label: 'Ways to work together' },
+          leadershipOther: { id: 128, label: 'Other' }
         },
+        groupTitle: 'I want to know about:',
       },
       messages: {
         success: 'Thanks for joining our community!',

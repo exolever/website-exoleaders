@@ -1730,10 +1730,6 @@ ol {
 	.domain-search-form {
 		text-align: center;
 	}
-	.domain-search-form input {
-		width: 100%;
-		margin-bottom: 20px;
-	}
 	.service-box-text {
 		padding: 90px 30px 105px;
 	}
@@ -1766,7 +1762,7 @@ ol {
 .mc_embed_signup .datefield label, .mc_embed_signup .phonefield-us label{display:none;}
 .mc_embed_signup .indicates-required {float:right; font-size:11px;}
 .mc_embed_signup .asterisk {color:#fff; font-size:150%; font-weight:normal; position:relative; top:5px;}
-.mc_embed_signup .clear {clear:both; text-align: center;}
+.mc_embed_signup .clear {clear:both; text-align: center; margin-top: 60px;}
 .mc_embed_signup .mc-field-group.input-group strong { float:left; }
 .mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none; flex:1}
 .mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
