@@ -1692,7 +1692,9 @@ ol {
 	.milestone-item {
 		margin-bottom: 40px;
 	}
-
+	.input-group {
+		display: block;
+	}
 }
 
 /* Medium Mobile :480px. */
@@ -1703,6 +1705,9 @@ ol {
 	}
 	.set-bg {
 		background-attachment: unset;
+	}
+	.input-group {
+		display: block;
 	}
 }
 
@@ -1740,6 +1745,9 @@ ol {
 	.faq-accordion.accordion-area .panel-link:after {
 		right: 20px;
 	}
+	.input-group {
+		display: block;
+	}
 }
 
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
@@ -1768,12 +1776,6 @@ ol {
 .mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
 .mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; height: auto; border:none;}
 .mc_embed_signup div.mce-responses {margin-bottom: 6%; font-weight: bold;}
-@media only screen and (max-width: 767px) {
-	.mc_embed_signup .asterisk {color:#ff7072; }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.mc_embed_signup .asterisk {color:#ff7072; }
-}
 
 .core-logo {
 	width: 180px;
