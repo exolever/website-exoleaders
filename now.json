@@ -1,6 +1,7 @@
 {
   "name": "website-exoleaders",
   "alias": [
+    "exoleader.now.sh",
     "exoleaders.now.sh"
   ],
   "github": {

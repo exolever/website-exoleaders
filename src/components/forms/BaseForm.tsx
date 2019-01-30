@@ -130,12 +130,10 @@ class BaseForm extends React.Component<Props, State> {
                   <label htmlFor={`mce-LINKEDIN-${this.id}`}>{labels.linkedIn}</label>
                   <input type="text" defaultValue="" name="LINKEDIN" id={`mce-LINKEDIN-${this.id}`} />
                 </div>}
-              {enableGroups &&
+              {visibleGroups.length > 0 &&
                 <div className="mc-field-group">
                   {groupTitle && <div><label>{groupTitle}</label></div>}
                   <div className="input-group">
-                    {hiddenGroups.map(group =>
-                      <input key={group.id} type="hidden" value={group.id} name={`group[189][${group.id}]`} readOnly />)}
                     {visibleGroups.map(group =>
                       <Checkbox
                         key={group.id}
@@ -150,6 +148,8 @@ class BaseForm extends React.Component<Props, State> {
               {this.state.message &&
                 <div className="mce-responses clear" dangerouslySetInnerHTML={{ __html: this.state.message }} />}
               <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
+                {hiddenGroups.map(group =>
+                  <input key={group.id} type="hidden" value={group.id} name={`group[189][${group.id}]`} readOnly />)}
                 <input type="text" name={`b_${MC.user}_${MC.id}`} value="" readOnly />
                 <input type="hidden" name="u" value={MC.user} readOnly />
                 <input type="hidden" name="id" value={MC.id} readOnly />
