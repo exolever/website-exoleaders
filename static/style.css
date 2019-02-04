@@ -1788,30 +1788,6 @@ ol {
 }
 /* exo stylys */
 
-.exo-footer {
-	padding: 50px 0;
-	background: #5c0c68;
-	text-align: center;
-}
-	.exo-footer .footer-widget li {
-		display: inline-block;
-		padding: 0 20px;
-	}
-		.exo-footer .footer-widget li a {
-			opacity: 1;
-		}
-	.exo-footer .copyright {
-		float: none;
-	}
-.love {
-	color: rgba(255, 255, 255, 0.25)
-}
-.love a {
-	color: rgba(255, 255, 255, 0.25);
-	text-decoration: underline;
-}
-
-
 .section-1  .text  p {
 	margin-bottom: 32px;
 }
