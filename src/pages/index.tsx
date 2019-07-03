@@ -158,7 +158,7 @@ class IndexPage extends React.Component<any, State> {
           </Section>
 
           <Footer
-            logoImg="/social/openexo_logo_white.png"
+            logoImg="social/openexo_logo_white.png"
             logoUrl={DATA.en.footer.main.url}
             logoAlt={DATA.en.footer.main.text}
             links={DATA.en.footer.links}
