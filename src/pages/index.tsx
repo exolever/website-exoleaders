@@ -94,7 +94,7 @@ const DATA = {
         <>
           <span>Building Exponential Organizations - OpenExO<sub>®</sub> {year}</span>
           <small>Copyright &copy; {year} All rights reserved</small>
-          <small>Made with ❤ by <a target="_blank" href="https://www.exodevhub.com/">ExO DevHub</a></small>
+          <small>Made with ❤ by <a target="_blank" href="https://www.openexo.com/">OpenExO</a></small>
         </>
     }
   }
