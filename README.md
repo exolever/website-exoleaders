@@ -1,50 +1,28 @@
-# gatsby-starter-typescript-plus
+# ExO Leaders [![Build Status](https://travis-ci.org/exolever/website-exoleaders.svg?branch=master)](https://travis-ci.org/exolever/website-exoleaders)
 
-> A starter kit for TypeScript-based Gatsby projects with sensible defaults.
+[https://exoleaders.com/](https://exoleaders.com/)
 
-This is a starter kit for [Gatsby.js](https://www.gatsbyjs.org/) websites written in TypeScript. It includes the bare essentials for you to get started (styling, Markdown parsing, minimal toolset).
 
-## Features
+## Install Dependencies
+1. Install Node.js (v.10.0.0 upwards)
 
-- TypeScript
-- TSLint (with custom TSLint rules)
-- Markdown rendering with Remark
-- Basic component structure
-- Styling with [emotion](https://emotion.sh/)
-
-## Geting started
-
-Install this starter (assuming you have `gatsby-cli` installed) by running the following command:
-
-```bash
-gatsby new project-name https://github.com/resir014/gatsby-starter-typescript-plus
+2. Install project dependencies from root directory
+```
+npm ci
 ```
 
-## Developing
+## Development
 
-A nodejs >= 6.0.0 setup with [yarn](https://yarnpkg.com/) is recommended.
+### Full Application Development
+Start `webpack-dev-server` on [http://localhost:8000](http://localhost:8000)
+```
+npm run start
+```
 
-```bash
-# install dependencies
-yarn
+## Build & Deployment
 
-# ...or, for npm
-npm install
-
-# serve with hot reload at localhost:8000
-npm start
-
-# build for production
+1. Build `production` version of application to `dist` directory
+```
 npm run build
-
-# build for production and push to gh-pages branch
-npm run deploy
 ```
 
-## Credits
-
-Built with [Gatsby](https://www.gatsbyjs.org/) - the blazing-fast static site generator for [React](https://facebook.github.io/react/).
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/resir014/gatsby-starter-typescript-plus)

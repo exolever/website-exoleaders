@@ -1,9 +1,10 @@
 'use strict'
 
 module.exports = {
+  pathPrefix: `/website-exoleaders`,
   siteMetadata: {
     title: 'ExO Leaders | Exponential leaders of tomorrow',
-    siteUrl: '',
+    siteUrl: 'https://exoleaders.com',
     description: '',
     author: {
       name: '',
@@ -30,7 +31,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-133300815-1",
+        trackingId: "UA-135475643-6",
         // Puts tracking script in the head instead of the body
         head: true,
         // Setting this parameter is optional
@@ -83,7 +84,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'http://exodevhub.com'
+        siteUrl: 'https://www.openexo.com'
       }
     },
     'gatsby-plugin-emotion',
