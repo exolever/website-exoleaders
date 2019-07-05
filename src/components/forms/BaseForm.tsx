@@ -109,6 +109,7 @@ class BaseForm extends React.Component<Props, State> {
             target="_blank"
             onSubmit={this.onSubmit}
           >
+            <input type="hidden" value="exoleader.com" name="SITE" />
             <div className="mc_embed_signup_scroll">
               <div className="mc-field-group">
                 <div className="indicates-required"><span className="asterisk">*</span>&nbsp;{labels.required}</div>
