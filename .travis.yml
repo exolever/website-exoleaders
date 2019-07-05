@@ -1,9 +1,6 @@
 language: node_js
 node_js:
-  - "stable"
-cache:
-  directories:
-  - node_modules
+  - stable
 deploy:
   provider: pages
   skip-cleanup: true
@@ -12,10 +9,5 @@ deploy:
   keep-history: true
   on:
     branch: master
-before_script:
-  - "npm i -g gatsby"
-  - "npm i"
 script:
-  - "npm run test"
-after_success:
-  - "npm run deploy:gh-pages"
+  - gatsby build --prefix-paths
