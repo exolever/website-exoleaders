@@ -4,7 +4,7 @@ interface Props {
   children?: React.ReactNode;
 }
 
-const Section: React.SFC<Props> = ({ children }) => {
+const Section: React.FC<Props> = ({ children }) => {
 
   return (
     <section className="about-section spad">

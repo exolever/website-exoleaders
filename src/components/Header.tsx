@@ -6,7 +6,7 @@ interface HeaderProps {
   links?: Array<{ text: string; url: string }>;
 }
 
-const Header: React.SFC<HeaderProps> = ({ title, logo, links = [] }) => (
+const Header: React.FC<HeaderProps> = ({ title, logo, links = [] }) => (
   <header className="header-section">
     <a href="/" className="site-logo"><img src={logo} alt={title} height={32} /></a>
     <div className="nav-switch">
