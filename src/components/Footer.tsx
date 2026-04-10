@@ -64,7 +64,7 @@ const Copyright = styled.div`
   }
 `;
 
-const Footer: React.SFC<Props> = ({ logoUrl, logoImg, logoAlt, links = [], copyright }) =>
+const Footer: React.FC<Props> = ({ logoUrl, logoImg, logoAlt, links = [], copyright }) =>
   <Body>
     <a href={logoUrl} target="_blank">
       <Logo alt={logoAlt} src={logoImg} />

@@ -14,7 +14,7 @@ interface Props {
 const Logo = styled.img`
   margin-bottom: 24px;
 `
-const Hero: React.SFC<Props> = ({ title, subtitle, cta, image, backgroundImage }) => {
+const Hero: React.FC<Props> = ({ title, subtitle, cta, image, backgroundImage }) => {
 
   const ContainerWithBackgroundImage = styled.section`
     background: url(${backgroundImage});

@@ -5,10 +5,11 @@ import styled from '@emotion/styled';
 const StyledContainer = styled.div``;
 
 interface ContainerProps {
+  children?: React.ReactNode;
   className?: string;
 }
 
-const Container: React.SFC<ContainerProps> = ({ children, className }) => (
+const Container: React.FC<ContainerProps> = ({ children, className }) => (
   <StyledContainer className={className}>{children}</StyledContainer>
 );
 

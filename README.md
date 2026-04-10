@@ -4,7 +4,7 @@
 
 
 ## Install Dependencies
-1. Install Node.js (v.10.0.0 upwards)
+1. Install Node.js (v18.0.0 up to, but not including, v26)
 
 2. Install project dependencies from root directory
 ```
@@ -25,4 +25,3 @@ npm run start
 ```
 npm run build
 ```
-

@@ -10,7 +10,7 @@ interface Props {
   messages: any;
 }
 
-const LeaderForm: React.SFC<Props> = ({ title, labels, fields, messages }) => {
+const LeaderForm: React.FC<Props> = ({ title, labels, fields, messages }) => {
   return (
     <HighlightSection title={title} backgroundImage={formBg}>
       <Form
